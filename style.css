@@ -120,3 +120,81 @@
  nav a:hover {
      color: #FFEB3B;
  }
+
+ /* Hero Section */
+
+ .hero {
+     padding: 20px;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .hero .container {
+     display: flex;
+     width: 100%;
+     flex-wrap: wrap;
+     padding: 30px;
+     margin-top: 70px;
+     flex-direction: row;
+     justify-content: space-between;
+     margin-right: 22px;
+ }
+
+ .hero .text-content {
+     max-width: 600px;
+ }
+
+ .hero .myquote {
+     font-family: 'Yellowtail', cursive;
+     font-size: 50px;
+     font-weight: 500;
+ }
+
+ .hero .quote-author {
+     font-size: 1rem;
+     color: #555;
+     margin-bottom: 15px;
+     display: block;
+ }
+
+ .hero .quote-body {
+     font-size: 0.9rem;
+     color: black;
+     margin-bottom: 20px;
+     margin-right: 30px;
+     text-align: justify;
+ }
+
+ .hero .cta {
+     background: linear-gradient(to right, #1e3c72, #3a5fcd);
+     color: white;
+     padding: 10px 20px;
+     cursor: pointer;
+     border-radius: 5px;
+     text-decoration: none;
+     transition: all 0.3s;
+ }
+
+ .hero .cta:hover {
+     background: #FFEB3B;
+     color: #333;
+ }
+
+ /* Default Image Styling */
+ .hero .image img {
+     width: 100%;
+     max-width: 650px;
+     margin-right: -40px;
+     height: auto;
+     border-radius: 10px;
+     object-fit: cover;
+ }
+
+ .hero .image:hover img,
+ .image-content:hover img,
+ .photo-content:hover img {
+     transform: scale(1.05);
+     /* Scales the image up slightly on hover */
+ }

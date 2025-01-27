@@ -267,8 +267,6 @@
      margin: 0 auto 10px;
  }
 
-
-
  .icon-wrapper:hover {
      background: #FFEB3B;
      color: black;
@@ -296,4 +294,127 @@
      color: black;
      text-align: justify;
      line-height: 1.5em;
+ }
+
+ /* Reflection Element Styling */
+
+ .mycolumn {
+     display: flex;
+     width: 100%;
+     padding: 10px;
+     scroll-snap-align: start;
+     display: flex;
+     align-items: center;
+ }
+
+ .image-content img {
+     width: 100%;
+     margin-top: 20px;
+     max-width: 900px;
+     height: auto;
+     /* Maintain aspect ratio */
+     margin-left: 40px;
+     border-radius: 10px;
+     object-fit: cover;
+ }
+
+
+ .mytext {
+     width: 100%;
+     text-align: justify;
+     margin-right: 48px;
+ }
+
+ .cardcontent {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     /* Center content horizontally */
+     padding: 8px;
+     margin-left: 70px;
+ }
+
+ .cardcontent h2 {
+     font-size: 1.8rem;
+     font-family: "Poppins", sans-serif;
+     color: #1e3c72;
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+ .quickservices {
+     border-radius: 3px;
+     background: linear-gradient(to right, #1e3c72, #3a5fcd);
+     padding: 40px;
+     display: flex;
+     gap: 20px;
+     justify-content: center;
+     align-items: center;
+     margin-block: 15px;
+ }
+
+ .quickbox {
+     gap: 10px;
+     padding: 10px
+ }
+
+ .qico,
+ .quickbox {
+     width: 100%;
+     display: flex;
+     align-items: center
+ }
+
+ .qico {
+     justify-content: center;
+     padding: 12px;
+     gap: 8px;
+     flex-shrink: 0;
+     border-radius: 5px
+ }
+
+ .q1 {
+     background: linear-gradient(to bottom, #f9f9f9, #e3f2fd);
+ }
+
+ .q1:hover {
+     background: #FFEB3B;
+     color: black;
+     transform: translateY(-3px) scale(1.1);
+ }
+
+ .q2 {
+     background: linear-gradient(to bottom, #f9f9f9, #e3f2fd);
+     ;
+ }
+
+ .q2:hover {
+     background: #FFEB3B;
+     color: black;
+     transform: translateY(-3px) scale(1.1);
+ }
+
+ .q3 {
+     background: linear-gradient(to bottom, #f9f9f9, #e3f2fd);
+ }
+
+ .q3:hover {
+     background: #FFEB3B;
+     color: black;
+     transform: translateY(-3px) scale(1.1);
+ }
+
+ .quicktext {
+     width: 100%;
+     color: #fff;
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 200;
+     line-height: 26px
+ }
+
+ .quickcion {
+     width: 20%;
+     height: -moz-fit-content;
+     height: fit-content
  }

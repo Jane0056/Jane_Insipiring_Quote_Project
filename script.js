@@ -99,3 +99,12 @@ document.addEventListener("DOMContentLoaded", () => {
   // Display the default quote on page load
   displayDefaultQuoteInfo();
 });
+
+// CTA button click event for motivational alert
+document.addEventListener("DOMContentLoaded", () => {
+  let ctaButton = document.querySelector(".cta");
+
+  ctaButton.addEventListener("click", () => {
+    alert("Stay inspired! Keep pushing forward.");
+  });
+});

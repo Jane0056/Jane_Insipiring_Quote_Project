@@ -44,10 +44,7 @@
 
  .material-symbols-outlined {
      font-weight: 200 !important;
-
  }
-
-
 
  /* header Styling */
  header {
@@ -253,24 +250,63 @@
      border-radius: 5px;
  }
 
+ /* Icon wrapper styles */
  .icon-wrapper {
-     background: linear-gradient(to right, #1e3c72, #3a5fcd);
+     background: linear-gradient(to right, #2a4f92, #5a85db);
      color: white;
      width: 65px;
-     vertical-align: middle;
-     /* Align icon with text */
      height: 65px;
      display: flex;
      justify-content: center;
      align-items: center;
      border-radius: 50%;
      margin: 0 auto 10px;
+     transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
  }
 
+ /* Hover effect */
  .icon-wrapper:hover {
-     background: #FFEB3B;
+     background: #e3f2fd;
+     /* Soft pastel blue */
      color: black;
-     transform: translateY(-3px) scale(1.1);
+     /* Dark blue for contrast */
+     transform: scale(1.1);
+ }
+
+ .icon-wrapper .self_improvement:hover {
+     color: #ff8c42;
+     /* Warm peach tone */
+ }
+
+ .icon-wrapper .directions_run:hover {
+     color: #5cb85c;
+     /* Soft green */
+ }
+
+ .icon-wrapper .trending_up:hover {
+     color: #8a56ac;
+     /* Soft purple */
+ }
+
+ .icon-wrapper .refresh:hover {
+     color: #f06292;
+     /* Pink for transformation */
+ }
+
+ .icon-wrapper .shield:hover {
+     color: #26a69a;
+     /* Teal for conviction */
+ }
+
+ .icon-wrapper .rocket_launch:hover {
+     color: #ff7043;
+     /* Warm coral */
+ }
+
+
+ /* Specific icon sizes */
+ .icon-wrapper span {
+     font-size: 40px;
  }
 
  .benefits-item {
@@ -318,7 +354,6 @@
      object-fit: cover;
  }
 
-
  .mytext {
      width: 100%;
      text-align: justify;
@@ -355,11 +390,7 @@
 
  .quickbox {
      gap: 10px;
-     padding: 10px
- }
-
- .qico,
- .quickbox {
+     padding: 10px;
      width: 100%;
      display: flex;
      align-items: center
@@ -367,40 +398,49 @@
 
  .qico {
      justify-content: center;
+     width: 100%;
+     display: flex;
+     align-items: center;
      padding: 12px;
      gap: 8px;
      flex-shrink: 0;
-     border-radius: 5px
+     border-radius: 5px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
  }
 
- .q1 {
+ /* Add hover effects for icons */
+ .qico span {
+     font-size: 40px;
+     color: #1e88e5;
+     transition: transform 0.3s ease, color 0.3s ease;
+ }
+
+ .qico:hover span {
+     color: #FFEB3B;
+     transform: scale(1.2);
+
+ }
+
+ /* Individual icon colors to match themes */
+ .q1,
+ .q1 span {
      background: linear-gradient(to bottom, #f9f9f9, #e3f2fd);
+     color: #ff5722;
+     /* Reddish color for pushing boundaries */
  }
 
- .q1:hover {
-     background: #FFEB3B;
-     color: black;
-     transform: translateY(-3px) scale(1.1);
- }
-
- .q2 {
+ .q2,
+ .q2 span {
      background: linear-gradient(to bottom, #f9f9f9, #e3f2fd);
+     color: #4caf50;
+     /* Green for unlocking potential */
  }
 
- .q2:hover {
-     background: #FFEB3B;
-     color: black;
-     transform: translateY(-3px) scale(1.1);
- }
-
- .q3 {
+ .q3,
+ .q3 span {
      background: linear-gradient(to bottom, #f9f9f9, #e3f2fd);
- }
-
- .q3:hover {
-     background: #FFEB3B;
-     color: black;
-     transform: translateY(-3px) scale(1.1);
+     color: #673ab7;
+     /* Purple for overcoming self-doubt */
  }
 
  .quicktext {

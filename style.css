@@ -45,3 +45,78 @@
  .material-symbols-outlined {
      font-weight: 200 !important;
  }
+
+ /* header Styling */
+ header {
+     background: linear-gradient(to right, #1e3c72, #3a5fcd);
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 15px 30px;
+     position: fixed;
+     width: 100%;
+     z-index: 1000;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ }
+
+ /* Header Logo section */
+ .logo {
+     display: flex;
+     align-items: center;
+ }
+
+ .logo img {
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     margin-right: 10px;
+     transition: transform 0.3s ease-in-out;
+ }
+
+ .logo img:hover {
+     transform: scale(1.1);
+ }
+
+ .logo span {
+     font-size: 1.5rem;
+     font-weight: bold;
+     transition: color 0.3s;
+ }
+
+ .logo span:hover {
+     transform: scale(1.1);
+     color: #FFEB3B;
+ }
+
+ /* Toggle Button Styling */
+
+ .toggle-btn {
+     display: none;
+     font-size: 24px;
+     cursor: pointer;
+     color: white;
+     background: transparent;
+     border: none;
+     padding: 8px;
+ }
+
+ /* Navigation Links */
+
+ nav {
+     display: flex;
+     gap: 20px;
+ }
+
+ nav a {
+     color: white;
+     margin: 0 10px;
+     text-decoration: none;
+     font-weight: 500;
+     white-space: nowrap;
+     transition: color 0.3s;
+ }
+
+ nav a:hover {
+     color: #FFEB3B;
+ }

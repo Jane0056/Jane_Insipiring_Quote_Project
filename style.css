@@ -10,14 +10,6 @@
      scroll-behavior: smooth;
  }
 
- /* Body and font styles */
- body {
-     font-family: 'Poppins', sans-serif;
-     background: linear-gradient(to bottom, #f9f9f9, #e3f2fd);
-     color: #333;
-     line-height: 1.6;
- }
-
  /* Scrollbar Styling */
 
  ::-webkit-scrollbar {
@@ -44,6 +36,14 @@
 
  .material-symbols-outlined {
      font-weight: 200 !important;
+ }
+
+ /* Body and font styles */
+ body {
+     font-family: 'Poppins', sans-serif;
+     background: linear-gradient(to bottom, #f9f9f9, #e3f2fd);
+     color: #333;
+     line-height: 1.6;
  }
 
  /* header Styling */
@@ -1204,7 +1204,7 @@
 
      .footer-section h2 {
          font-size: 1.5em;
-         margin-bottom: 205px;
+         margin-bottom: 25px;
      }
 
      .footer-section .story {
